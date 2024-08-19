@@ -1,0 +1,31 @@
+test_case: "EP" # {"EP", "CFD"}
+
+training:
+  seed: 1
+  epochs_adam: 3000
+  lr: 0.0003
+  batch_size: 5
+  use_mask: False
+  output_frequency: 50
+  sampled_mesh_points: 1000
+
+inference:
+  num_chunks: 4 # EP: 4, CFD: 90
+
+hpo:
+  active: False
+  num_samples: 20
+  restart: False
+  num_workers: 1
+  use_gpu: False
+  base_folder: "./ray_results/"
+
+lfldnet_architecture:
+  # Training parameters.
+  N_states: 50             # EP: 50, CFD: 100
+  N_neu: 200               # EP: 200, CFD: 300
+  N_hid: 10                # EP: 10, CFD: 5
+  fourier_mapping_size: 50 # EP: 50, CFD: 100
+  # Testing folder.
+  chk_path: "./NNs/LFLDNets_50s_dyn200n_rec200n10l_50f_1000sp_10000adam_0.0003lr_1seed_EP/checkpoints/epoch=1799-step=36000.ckpt" # EP
+  #chk_path: "./NNs/LFLDNets_100s_dyn300n_rec300n5l_100f_1000sp_10000adam_0.0003lr_1seed_CFD/checkpoints/epoch=5599-step=28000.ckpt" # CFD
