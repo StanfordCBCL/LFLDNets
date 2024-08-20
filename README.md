@@ -1,4 +1,4 @@
-# Liquid Fourier Latent Dynamics Networks for fast GPU-based numerical simulations in computational cardiology
+# Liquid Fourier Latent Dynamics Networks
 
 This repository contains the code accompanying the paper [1].
 We propose an extension of Latent Dynamics Networks (LDNets) [2], namely Liquid Fourier Latent Dynamics Networks (LFLDNets), to create parameterized spatio-temporal surrogate models for multiscale and multiphysics sets of highly nonlinear differential equations on complex geometries.
@@ -54,6 +54,6 @@ git clone https://github.com/MatteoSalvador/LFLDNets.git
 
 ## References
 
-[1] M. Salvador, A. L. Marsden. [Liquid Fourier Latent Dynamics Networks for fast GPU-based numerical simulations in computational cardiology](). *arXiv preprint* (2024).
+[1] M. Salvador, A. L. Marsden. [Liquid Fourier Latent Dynamics Networks for fast GPU-based numerical simulations in computational cardiology](http://arxiv.org/abs/2408.09818). *arXiv:2408.09818* (2024).
 
 [2] F. Regazzoni, S. Pagani, M. Salvador, L. Dede', A. Quarteroni. [Learning the intrinsic dynamics of spatio-temporal processes through Latent Dynamics Networks](https://www.nature.com/articles/s41467-024-45323-x). *Nature Communications* (2024).
