@@ -54,6 +54,6 @@ git clone https://github.com/MatteoSalvador/LFLDNets.git
 
 ## References
 
-[1] M. Salvador, A. L. Marsden. [Liquid Fourier Latent Dynamics Networks for fast GPU-based numerical simulations in computational cardiology](http://arxiv.org/abs/2408.09818). *arXiv:2408.09818* (2024).
+[1] M. Salvador, A. L. Marsden. [Liquid Fourier Latent Dynamics Networks for fast GPU-based numerical simulations in computational cardiology](https://www.sciencedirect.com/science/article/abs/pii/S0010482525017093). *Computers in Biology and Medicine* (2026).
 
 [2] F. Regazzoni, S. Pagani, M. Salvador, L. Dede', A. Quarteroni. [Learning the intrinsic dynamics of spatio-temporal processes through Latent Dynamics Networks](https://www.nature.com/articles/s41467-024-45323-x). *Nature Communications* (2024).
