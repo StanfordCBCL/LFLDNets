@@ -48,10 +48,6 @@ git clone https://github.com/MatteoSalvador/LFLDNets.git
 
 6. **LFLDNets (inference):** run the Python script `test.py` with proper settings, specified in the `config.yaml` file. Note that a significant amount of RAM is required, especially for the `'CFD'` test case.
 
-## Authors
-
-- Matteo Salvador (<msalvad@stanford.edu>)
-
 ## References
 
 [1] M. Salvador, A. L. Marsden. [Liquid Fourier Latent Dynamics Networks for fast GPU-based numerical simulations in computational cardiology](https://www.sciencedirect.com/science/article/abs/pii/S0010482525017093). *Computers in Biology and Medicine* (2026).
